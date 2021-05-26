@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+.w {
+  width: 640px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+}
+header .banner {
+  width: 640px;
+  height: 280px;
+}
+header .list {
+  width: 640px;
+  height: 220px;
+  background-color: #011957;
+}
+header .list ul {
+  list-style: none;
+}
+header .list ul li {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #011957;
+  border-radius: 5px;
+  box-shadow: #3E13A0 0px 9px 2px -7px;
+  background-color: #6745B5;
+  margin: 10px 22px;
+  font-size: 14px;
+}
+header .list ul li span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #011957;
+  text-align: center;
+  line-height: 10px;
+  border: 1px solid #011957;
+  border-radius: 4px;
+}
+header .list ul li a {
+  color: white;
+}
+header .list ul li a:hover {
+  color: #FEE21D;
+}
+section .book {
+  width: 640px;
+  height: 3220px;
+  background-color: #011957;
+}
+section .book .book1 {
+  float: left;
+  width: 305px;
+  height: 390px;
+  background-color: #ffffff;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+section .book .book1 a {
+  position: relative;
+}
+section .book .book1 a img {
+  width: 305px;
+}
+section .book .book1 a h4 {
+  color: black;
+  font-weight: 400;
+}
+section .book .book1 a h2 {
+  color: #FD384C;
+}
+section .book .book1 a p {
+  text-decoration: line-through;
+  color: black;
+}
+section .book .book1 a span {
+  position: absolute;
+  left: 250px;
+  bottom: 0px;
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #FD384C;
+  color: white;
+  border: 1px solid #FD384C;
+  border-radius: 5px;
+}

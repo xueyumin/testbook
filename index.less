@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+  
+}
+@w:640px;
+.w{
+    width:@w;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    .banner{
+         width: @w;
+         height: 280px;
+    }
+    .list{
+        width: @w;
+        height: 220px;
+        background-color:#011957 ;
+        ul{
+            list-style: none;
+            li{
+                float: left;
+                height: 30px;
+                line-height: 30px;
+                border: 1px solid #011957;
+                border-radius:5px;
+                box-shadow: #3E13A0 0px 9px 2px -7px;
+                background-color: #6745B5;
+                margin: 10px 22px;
+                font-size: 14px;
+                span{
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background-color: #011957;
+                    text-align: center;
+                    line-height: 10px;
+                    border: 1px solid #011957;
+                    border-radius: 4px;
+                }
+                a{
+                    color: white;
+                    &:hover{
+                        color: #FEE21D;
+                    }
+                }
+             
+            }
+            
+        }
+    }
+  
+}
+section{
+    .book{
+        width: @w;
+        height: 3220px;
+        background-color: #011957;
+        
+            .book1{
+                float: left;
+                width: 305px;
+                height: 390px;
+                background-color:rgb(255, 255, 255);
+                margin-left: 10px;
+                margin-bottom: 10px;
+                border: 1px solid white;
+                border-radius: 10px;
+                overflow: hidden;
+                a{
+                    position: relative;
+                    img{
+                        width: 305px;
+                     
+                    }
+                    h4{
+                        color: black;
+                        font-weight: 400;
+                    }
+                    h2{
+                        color: #FD384C;
+                    }
+                    p{
+                        text-decoration: line-through;
+                        color: black;
+                    }
+                    span{
+                        position: absolute;
+                        left: 250px;
+                        bottom: 0px;
+                        width: 40px;
+                        height: 40px;
+                        font-size: 14px;
+                        text-align: center;
+                        background-color:#FD384C ;
+                        color: white;
+                        border: 1px solid #FD384C;
+                        border-radius: 5px;
+                    }
+                }                  
+                
+            
+        }
+        
+
+    }
+}
